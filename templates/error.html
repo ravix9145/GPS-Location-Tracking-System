@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="not-found"><span class="eyebrow">ERROR {{ code }}</span><h1>{{ message }}</h1><p>Return to your workspace to continue.</p><a class="primary-button link-button" href="{{ url_for('index') }}">Back to home →</a></section>{% endblock %}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+gps_tracker.db
+.pytest_cache/
+.coverage
+
+cloudflared.exe
